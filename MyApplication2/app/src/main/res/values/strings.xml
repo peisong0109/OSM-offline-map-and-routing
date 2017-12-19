@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="maps_api_key">AIzaSyC1FJK-u6g2cLcjeWJBDuwKTTPF2cTpgGE</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="placebo">Lorem Ipsum</string>
+    <string name="mainMenuTitle">MENU</string>
+    <string name="content_description_button_gps">Ke posisi perangkat</string>
+    <string name="content_description_button_menu">Menu utama</string>
+    <string name="content_description_button_zoom_in">Zoom in</string>
+    <string name="content_description_button_zoom_out">Zoom out</string>
+    <string name="content_description_button_reset_north">Reset arah utara</string>
+    <string name="content_description_menu_navigation">Navigasi</string>
+    <string name="content_description_menu_close">Tutup</string>
+    <string name="content_description_menu_myaccount">Akun Saya</string>
+    <string name="content_description_menu_administration">Administrasi</string>
+    <string name="content_description_menu_locations">Daftar Lokasi</string>
+    <string name="content_description_menu_favorite">Favorit</string>
+    <string name="content_description_menu_settings">Pengaturan</string>
+    <string name="menu_navigation">Navigasi</string>
+    <string name="menu_myaccount">Akun Saya</string>
+    <string name="menu_administration">Administrasi</string>
+    <string name="menu_locations">Daftar Lokasi</string>
+    <string name="menu_favorite">Favorit</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="title_activity_navigation">Navigasi</string>
+    <string name="title_activity_favorite">Favorit</string>
+    <string name="navigation_pinned">Lokasi Terdaftar</string>
+    <string name="navigation_favorite">Favorit</string>
+</resources>

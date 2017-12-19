@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval" >
+    <corners
+        android:radius="50dp"
+        />
+    <solid
+        android:color="#884F4F4F"
+        />
+    <padding
+        android:left="@dimen/round_button_padding"
+        android:right="@dimen/round_button_padding"
+        android:top="@dimen/round_button_padding"
+        android:bottom="@dimen/round_button_padding"
+        />
+</shape>

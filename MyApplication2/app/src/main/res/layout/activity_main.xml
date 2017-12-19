@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sy_jia.myapplication2.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapViewLayout">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/controlLayout"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonGps"
+            android:src="@drawable/ic_gps_fixed_white_36dp"
+            android:background="@drawable/round_button"
+            android:contentDescription="@string/content_description_button_gps"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:layout_marginBottom="@dimen/button_bottom_spacing" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/controlZoomIn"
+            android:background="@drawable/round_button"
+            android:src="@drawable/ic_zoom_in_white_36dp"
+            android:layout_marginBottom="@dimen/button_bottom_spacing"
+            android:contentDescription="@string/content_description_button_zoom_in"
+            android:onClick="onClick" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/controlZoomOut"
+            android:background="@drawable/round_button"
+            android:src="@drawable/ic_zoom_out_white_36dp"
+            android:contentDescription="@string/content_description_button_zoom_out"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+</RelativeLayout>
